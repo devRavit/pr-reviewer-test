@@ -15,3 +15,6 @@ labels:
   'modetour':
     include:
       - '\bmodetour\b'
+  'all':
+    include:
+      - '\ball\b'
