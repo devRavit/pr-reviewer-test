@@ -6,7 +6,7 @@ addAssignees: author
 
 # Reviewer 추가할 사용자 목록
 reviewers:
-  - devravit0108
+  - devRavit # 내 이름
 
 # 추가할 리뷰어 수
 # 0으로 설정하면 그룹 내 모든 리뷰어를 추가합니다 (기본값: 0)
@@ -14,8 +14,6 @@ numberOfReviewers: 1
 
 # Pull Request에 아래 키워드가 포함되어 있으면 리뷰어 추가 프로세스를 건너뜁니다
 skipKeywords:
-  - mode-tour
-  - MODE-TOUR
-  - MODETOUR
-  - 모두투어
-  - mode
+  - search
+  - SEARCH
+  - 검색
