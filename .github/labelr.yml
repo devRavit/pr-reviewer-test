@@ -9,3 +9,6 @@ labels:
   '모두투어':
     include:
       - '\b모두투어\b'
+  'search':
+    include:
+      - '\bsearch\b'
