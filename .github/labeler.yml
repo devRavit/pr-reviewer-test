@@ -3,12 +3,6 @@ enable:
   prs: true
 
 labels:
-  '검색':
-    include:
-      - '검색'
-  '모두투어':
-    include:
-      - '모두투어'
   'search':
     include:
       - 'search'
