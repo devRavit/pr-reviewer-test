@@ -21,3 +21,6 @@ labels:
   'worldin':
     include:
       - 'worldin'
+  'hotelin':
+    include:
+      - 'hotelin'
