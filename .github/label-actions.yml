@@ -1,0 +1,11 @@
+'test1':
+  prs:
+    reviewers:
+      - KRvlackink
+    number-of-reviewers: 1 # default is 1
+
+'test2':
+  prs:
+    reviewers:
+      - devravit
+    number-of-reviewers: 1 # default is 1
