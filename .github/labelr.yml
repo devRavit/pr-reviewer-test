@@ -12,3 +12,6 @@ labels:
   'search':
     include:
       - '\bsearch\b'
+  'modetour':
+    include:
+      - '\bmodetour\b'
