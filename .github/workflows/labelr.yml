@@ -6,10 +6,8 @@ on:
     types: [opened]
 
 jobs:
-
   labeler:
     runs-on: ubuntu-latest
-
     steps:
       - name: Check Labels
         id: labeler
