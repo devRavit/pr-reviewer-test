@@ -1,7 +1,7 @@
 'test1':
   prs:
     reviewers:
-      - psg107
+      - KRvlackink
     number-of-reviewers: 1 # default is 1
 
 'test2':

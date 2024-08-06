@@ -1,0 +1,11 @@
+enable:
+  issues: false
+  prs: true
+
+labels:
+  '검색':
+    include:
+      - '\b검색\b'
+  '모두투어':
+    include:
+      - '\b모두투어\b'
