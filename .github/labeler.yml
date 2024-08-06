@@ -5,19 +5,19 @@ enable:
 labels:
   '검색':
     include:
-      - '\b검색\b'
+      - '검색'
   '모두투어':
     include:
-      - '\b모두투어\b'
+      - '모두투어'
   'search':
     include:
-      - '\bsearch\b'
+      - 'search'
   'modetour':
     include:
-      - '\bmodetour\b'
+      - 'modetour'
   'all':
     include:
-      - '\ball\b'
+      - 'all'
   'worldin':
     include:
-      - '\bworldin\b'
+      - 'worldin'
