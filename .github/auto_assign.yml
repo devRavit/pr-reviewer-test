@@ -1,22 +1,41 @@
-# Reviewer 자동 할당 설정
+# Set to true to add reviewers to pull requests
 addReviewers: true
 
-# Assignee를 Author로 설정
-addAssignees: author
+# Set to true to add assignees to pull requests
+addAssignees: false
 
-# Reviewer 추가할 사용자 목록
-reviewers:
-  - devravit0108
-  - KRvlackink
-
-# 추가할 리뷰어 수
-# 0으로 설정하면 그룹 내 모든 리뷰어를 추가합니다 (기본값: 0)
+# A number of reviewers added to the pull request
+# Set 0 to add all the reviewers (default: 0)
 numberOfReviewers: 1
 
-# Pull Request에 아래 키워드가 포함되어 있으면 리뷰어 추가 프로세스를 건너뜁니다
+# A number of assignees to add to the pull request
+# Set to 0 to add all of the assignees.
+# Uses numberOfReviewers if unset.
+# numberOfAssignees: 2
+
+# Set to true to add reviewers from different groups to pull requests
+useReviewGroups: true
+
+# A list of reviewers, split into different groups, to be added to pull requests (GitHub user name)
+reviewGroups:
+  groupA:
+    - KRvlackink
+  groupB:
+    - devravit0108
+
+# Set to true to add assignees from different groups to pull requests
+useAssigneeGroups: true
+# A list of assignees, split into different froups, to be added to pull requests (GitHub user name)
+# assigneeGroups:
+#   groupA:
+#     - assigneeA
+#     - assigneeB
+#     - assigneeC
+#   groupB:
+#     - assigneeD
+#     - assigneeE
+#     - assigneeF
+
+# A list of keywords to be skipped the process that add reviewers if pull requests include it
 skipKeywords:
-  - mode-tour
-  - MODE-TOUR
-  - MODETOUR
-  - 모두투어
   - mode
